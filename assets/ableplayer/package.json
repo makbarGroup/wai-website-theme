@@ -16,7 +16,7 @@
   "dependencies": {
     "jquery": "3.3.1",
     "js-cookie": "2.2.0",
-    "xml-js": "1.6.2"
+    "xml-js": "1.6.11"
   },
   "devDependencies": {
     "grunt": "^1.0.4",
