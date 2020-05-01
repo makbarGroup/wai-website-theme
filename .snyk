@@ -1,0 +1,32 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - postcss-easy-import > lodash:
+        patched: '2020-05-01T01:02:04.607Z'
+    - netlify-cli > @oclif/plugin-not-found > lodash:
+        patched: '2020-05-01T01:02:04.607Z'
+    - netlify-cli > cli-ux > lodash:
+        patched: '2020-05-01T01:02:04.607Z'
+    - netlify-cli > http-proxy-middleware > lodash:
+        patched: '2020-05-01T01:02:04.607Z'
+    - netlify-cli > inquirer > lodash:
+        patched: '2020-05-01T01:02:04.607Z'
+    - netlify-cli > @netlify/config > configorama > lodash:
+        patched: '2020-05-01T01:02:04.607Z'
+    - netlify-cli > @oclif/plugin-plugins > cli-ux > lodash:
+        patched: '2020-05-01T01:02:04.607Z'
+    - netlify-cli > @netlify/build > @netlify/config > configorama > lodash:
+        patched: '2020-05-01T01:02:04.607Z'
+    - netlify-cli > @netlify/zip-it-and-ship-it > archiver > async > lodash:
+        patched: '2020-05-01T01:02:04.607Z'
+    - netlify-cli > @netlify/build > analytics > redux > lodash:
+        patched: '2020-05-01T01:02:04.607Z'
+    - netlify-cli > @netlify/build > @netlify/zip-it-and-ship-it > archiver > async > lodash:
+        patched: '2020-05-01T01:02:04.607Z'
+    - netlify-cli > netlify > @netlify/zip-it-and-ship-it > archiver > async > lodash:
+        patched: '2020-05-01T01:02:04.607Z'
+    - netlify-cli > @netlify/build > netlify > @netlify/zip-it-and-ship-it > archiver > async > lodash:
+        patched: '2020-05-01T01:02:04.607Z'
